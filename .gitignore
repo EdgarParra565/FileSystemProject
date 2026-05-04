@@ -1,0 +1,28 @@
+# Build artifacts
+*.o
+*.d
+*.a
+*.so
+nufs
+
+# Generated disk images and mount points
+*.nufs
+data.nufs
+block_test.img
+mnt/
+
+# Test output
+test.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Linux
+.directory
